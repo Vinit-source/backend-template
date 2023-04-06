@@ -1,0 +1,4 @@
+- Add `password` column to `customers`. 
+- Add UNIQUE to `phone` in `customers`.
+- Add Default `0` to `points` column in `customers`.
+- Add password value for one of the existing customers. For example: Password "Abcdefgh@123" for customer with `customer_id` = 10.

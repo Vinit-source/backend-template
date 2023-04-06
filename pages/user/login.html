@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Store - Login</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dummy Login Page</h1>
+        <ul class="note">
+            <li>You have to replace the code in login.html with your project's login page.</li>
+            <li>Read the code in login.js page. </li>
+            <li><strong>For every feature that requires database access, you have to replace
+                    localStorage getItem/setItem with Fetch API.</strong></li>
+            <li>The data will be sent to database through backend using Fetch API.</li>
+
+
+            <h3>If you wish to try the login feature, complete these steps:</h3>
+            <ol>
+                <li>Rename database name to <code>store</code> in the <code>api/utils/database.js</code> file</li>
+                <li>Open MySQL Workbench and make changes mentioned in the <code>changes_to_store.md</code> file to the
+                    store database.</li>
+                <li>Open Developer Tools and open the 'Network' tab to see the details of the API that will be sent.
+                </li>
+                <li>Enter phone number <em>404-246-3370</em> and password <em>Abcdefgh@123</em> for successful
+                    login.</li>
+                <li>Once submitted, you should be able to see 'login' with status '200' in the Netwroks tab. You may
+                    open it to see the details. ;)</li>
+                <li>Check localStorage. You should be able to see the userId: 10 data in it. Open MySQL Workbench and
+                    run <code>SELECT customer_id FROM store.customers WHERE phone="404-246-3370";</code>. The data was
+                    sent to database through backend and the customer_id was retrieved and then stored to localStorage.
+                    Interesting? :D</li>
+                <li>You should perform the above steps in the store-full-stack repo (after cloning it). There you would
+                    be able to appreciate the completeness of a full-stack application!</li>
+                <li>Hope these steps kindled interest in you to complete your project into a full-stack application.
+                    <em>For
+                        every module in your project, you can add a controller, a model and a router. In the frontend,
+                        you have to
+                        replace
+                        code that stores module data to localStorage with fetch APIs.<br>
+                        Feel free to reach out to me on
+                        Slack
+                        in case of any difficulties.</em> Happy coding!
+                </li>
+            </ol>
+        </ul>
+        <!-- Login form  -->
+        <form id="login-form" method="post">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}|([0-9]{3})-([0-9]{3})-([0-9]{4})">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Login" class="login-button">
+        </form>
+
+        <p>New user? Register <a href="./register.html">here</a></p>
+    </div>
+    <script src="./assets/js/login.js"></script>
+</body>
+
+</html>
