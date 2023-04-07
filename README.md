@@ -4,8 +4,7 @@
 ## Video Tutorials
 1. [Full stack application demo and server side code video](https://drive.google.com/file/d/1CcpiVZZ1r-yPSNgZU1w19hOPRsVEDigS/view?usp=share_link)
 
-2. [Client side changes and backend template]() (To be Uploaded)
-<hr>
+2. [Client side changes and backend template](https://drive.google.com/file/d/16O0jiJkbp0MSEQgTrNDtvGNqxy-t6sjX/view?usp=share_link)
 
 
 #### [Made by Vinit Gore with Scribe](https://scribehow.com/shared/How_to_Clone_Modify_and_Use_the_Backend_Template_for_your_Project__qAsUkBIJTKOIXW7IBmhfpA)
