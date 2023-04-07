@@ -1,6 +1,12 @@
 # How to Clone, Modify, and Use the Backend Template for your Project
 
-**Full stack application demo and server side code:**  [Tutorial 1](https://drive.google.com/file/d/1CcpiVZZ1r-yPSNgZU1w19hOPRsVEDigS/view?usp=share_link)
+
+## Video Tutorials
+1. [Full stack application demo and server side code video](https://drive.google.com/file/d/1CcpiVZZ1r-yPSNgZU1w19hOPRsVEDigS/view?usp=share_link)
+
+2. [Client side changes and backend template]() (To be Uploaded)
+<hr>
+
 
 #### [Made by Vinit Gore with Scribe](https://scribehow.com/shared/How_to_Clone_Modify_and_Use_the_Backend_Template_for_your_Project__qAsUkBIJTKOIXW7IBmhfpA)
 
