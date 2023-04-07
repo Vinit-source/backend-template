@@ -65,8 +65,8 @@ exports.yourControllerMethod = (req, res) => {
     } else
     // 200 - OK. The response is generated as expected
     {
-      res.status(200).json({ result: result }); // Send result for Select queries
-      // res.status(200).json({ message: 'Query successfully executed' }); // Send success message for other queries
+      // res.status(200).json({ result: result }); // Send result for Select queries
+      res.status(200).json({ message: 'Query successfully executed' }); // Send success message for other queries
     }
   });
 };
